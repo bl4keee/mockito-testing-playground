@@ -6,5 +6,5 @@ public interface TodoService {
 
     public List<String> retrieveTodos(String user);
 
-    public List<String> configureSomething(String user);
+    public void deleteTodo(String todo);
 }
